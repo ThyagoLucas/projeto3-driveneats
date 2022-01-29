@@ -25,23 +25,25 @@
             <p class="titulo-opcoes">Primeiro, seu prato</p>
             <div class="opcoes-prato">
                 
-                <div class="prato" onclick="alterar()">
+                <div class="prato p1" onclick="selecionarPrato('p1', 'Bife com fritas', '15,50')">
                     <img src="img/bife.jpg">
                     <p class="titulo-item">Bife com fritas</p>
                     <p class="descricao-item">Um pouco de batata, um pouco de salada</p>
                     <p class="preco-item">R$ 15,50</p>
+                    
+
                 </div>
                 
-                <div class="prato" onclick="alterar()">
+                <div class="prato p2" onclick="selecionarPrato('p2', 'Carne de sol', '35,00')">
                     <img src="img/bife.jpg">
-                    <p class="titulo-item">Bife com fritas</p>
+                    <p class="titulo-item">Carne de sol</p>
                     <p class="descricao-item">Um pouco de batata, um pouco de salada</p>
                     <p class="preco-item">R$ 15,50</p>
                 </div>
 
-                <div class="prato" onclick="alterar()">
+                <div class="prato p3" onclick="selecionarPrato('p3', 'Feijoada', '25,00')">
                     <img src="img/bife.jpg">
-                    <p class="titulo-item">Bife com fritas</p>
+                    <p class="titulo-item">Feijoada</p>
                     <p class="descricao-item">Um pouco de batata, um pouco de salada</p>
                     <p class="preco-item">R$ 15,50</p>
                 </div>
@@ -50,25 +52,25 @@
             
             <p class="titulo-opcoes">Agora, sua bebida</p>
             <div class="opcoes-bebida">        
-                <div class="bebida">
+                <div class="bebida b1" onclick="selecionarBebida('b1', 'Coquinha gelada', '4,90')">
                     <img src="img/bebida.jpg">
                     <p class="titulo-item">Coquinha gelada</p>
                     <p class="descricao-item">Lata 350ml</p>
                     <p class="preco-item">RS 4,90</p>
                 </div>
 
-                <div class="bebida">
+                <div class="bebida b2" onclick="selecionarBebida('b2', 'Suco de morango', '8,00')">
                     <img src="img/bebida.jpg">
-                    <p class="titulo-item">Coquinha gelada</p>
-                    <p class="descricao-item">Lata 350ml</p>
-                    <p class="preco-item">RS 4,90</p>
+                    <p class="titulo-item">Suco de morango</p>
+                    <p class="descricao-item">Copo 600ml</p>
+                    <p class="preco-item">RS 8,00</p>
                 </div>
 
-                <div class="bebida">
+                <div class="bebida b3" onclick="selecionarBebida('b3', 'Caldinho de cana', '9,00')">
                     <img src="img/bebida.jpg">
-                    <p class="titulo-item">Coquinha gelada</p>
-                    <p class="descricao-item">Lata 350ml</p>
-                    <p class="preco-item">RS 4,90</p>
+                    <p class="titulo-item">Caldinho de cana</p>
+                    <p class="descricao-item">Copo 600ml</p>
+                    <p class="preco-item">RS 9,00</p>
                 </div>
             </div> 
                 
@@ -107,5 +109,6 @@
    </div>
 
     <script src="script/script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
