@@ -23,88 +23,86 @@
        
         <div class="opcoes">    
             <p class="titulo-opcoes">Primeiro, seu prato</p>
-            <div class="opcoes-prato">
+            <div data-identifier="dishes" class="opcoes-prato">
                 
-                <div class="prato p1 hidden" onclick="selecionarPrato('p1', 'Bife com fritas', '15.50')">
+                <div data-identifier="food-option" class="prato p1 hidden" onclick="selecionarPrato('p1', 'Bife com fritas', '15.50')">
                     <img src="img/bife.jpg">
-                    <p class="titulo-item">Bife com fritas</p>
+                    <p data-identifier="food-title" class="titulo-item">Bife com fritas</p>
                     <p class="descricao-item">Um pouco de batata, um pouco de salada</p>
-                    <p class="preco-item">R$ 15,50</p>
+                    <p data-identifier="food-price" class="preco-item">R$ 15,50</p>
                     <ion-icon  class ='icon'name="checkmark-circle"></ion-icon>
                    
                 </div>
                 
-                <div class="prato p2 hidden" onclick="selecionarPrato('p2', 'Risoto marinado', '23.00')">
+                <div data-identifier="food-option" class="prato p2 hidden" onclick="selecionarPrato('p2', 'Risoto marinado', '23.00')">
                     <img src="img/risoto.jpg">
-                    <p class="titulo-item">Risoto marinado</p>
+                    <p data-identifier="food-title" class="titulo-item">Risoto marinado</p>
                     <p class="descricao-item">Risoto marinado, servido com beef</p>
-                    <p class="preco-item">R$ 23,00</p>
+                    <p data-identifier="food-price" class="preco-item">R$ 23,00</p>
                     <ion-icon  class ='icon'name="checkmark-circle"></ion-icon>
-                    
-               
-
+                   
                 </div>
 
-                <div class="prato p3 hidden" onclick="selecionarPrato('p3', 'Feijoada', '26.00')">
+                <div data-identifier="food-option" class="prato p3 hidden" onclick="selecionarPrato('p3', 'Feijoada', '26.00')">
                     <img src="img/churras.jpg">
-                    <p class="titulo-item">Churrasco gaúcho</p>
+                    <p data-identifier="food-title" class="titulo-item">Churrasco gaúcho</p>
                     <p class="descricao-item">Carne e acompanhamentos de churrasco.</p>
-                    <p class="preco-item">R$ 26,00</p>
+                    <p data-identifier="food-price" class="preco-item">R$ 26,00</p>
                     <ion-icon  class ='icon'name="checkmark-circle"></ion-icon>
                     
                 </div>
             </div>
             
             <p class="titulo-opcoes">Agora, sua bebida</p>
-            <div class="opcoes-bebida">        
-                <div class="bebida b1 hidden" onclick="selecionarBebida('b1', 'Coquinha gelada', '4.90')">
+            <div data-identifier="drinks" class="opcoes-bebida">        
+                <div data-identifier="food-option" class="bebida b1 hidden" onclick="selecionarBebida('b1', 'Coquinha gelada', '4.90')">
                     <img src="img/coquinha.jpg">
-                    <p class="titulo-item">Coquinha gelada</p>
+                    <p data-identifier="food-title" class="titulo-item">Coquinha gelada</p>
                     <p class="descricao-item">Lata 350ml</p>
-                    <p class="preco-item">RS 4,90</p>
+                    <p data-identifier="food-price" class="preco-item">RS 4,90</p>
                     <ion-icon  class ='icon'name="checkmark-circle"></ion-icon>
                 </div>
 
-                <div class="bebida b2 hidden" onclick="selecionarBebida('b2', 'Suco de morango', '8.00')">
+                <div data-identifier="food-option" class="bebida b2 hidden" onclick="selecionarBebida('b2', 'Suco de morango', '8.00')">
                     <img src="img/morango.jpg">
-                    <p class="titulo-item">Suco de morango</p>
+                    <p data-identifier="food-title" class="titulo-item">Suco de morango</p>
                     <p class="descricao-item">Copo 600ml</p>
-                    <p class="preco-item">RS 8,00</p>
+                    <p data-identifier="food-price" class="preco-item">RS 8,00</p>
                     <ion-icon  class ='icon'name="checkmark-circle"></ion-icon>
                 </div>
 
-                <div class="bebida b3 hidden" onclick="selecionarBebida('b3', 'Caldinho de cana', '9.00')">
+                <div data-identifier="food-option" class="bebida b3 hidden" onclick="selecionarBebida('b3', 'Caldinho de cana', '9.00')">
                     <img src="img/cana.jpg">
-                    <p class="titulo-item">Caldinho de cana</p>
+                    <p data-identifier="food-title" class="titulo-item">Caldinho de cana</p>
                     <p class="descricao-item">Copo 600ml</p>
-                    <p class="preco-item">RS 9,00</p>
+                    <p data-identifier="food-price" class="preco-item">RS 9,00</p>
                     <ion-icon  class ='icon'name="checkmark-circle"></ion-icon>
                 </div>
             </div> 
             
             <p class="titulo-opcoes">Por último, a sobremesa</p>
-            <div class="opcoes-sobremesa">
-                <div class="sobremesa s1 hidden" onclick="selecionarSobremesa('s1', 'Rapadura', '6.90') ">
+            <div data-identifier="desserts" class="opcoes-sobremesa">
+                <div data-identifier="food-option" class="sobremesa s1 hidden" onclick="selecionarSobremesa('s1', 'Rapadura', '6.90') ">
                     <img src="img/rapa.jpg">
-                    <p class="titulo-item">Rapadura</p>
+                    <p data-identifier="food-title" class="titulo-item">Rapadura</p>
                     <p class="descricao-item">Apenas rapadura</p>
-                    <p class="preco-item">R$ 6,90</p>
+                    <p data-identifier="food-price" class="preco-item">R$ 6,90</p>
                     <ion-icon  class ='icon'name="checkmark-circle"></ion-icon>
                 </div>
 
-                <div class="sobremesa s2 hidden" onclick="selecionarSobremesa('s2', 'Mousse de maracujá', '8.00')">
+                <div data-identifier="food-option" class="sobremesa s2 hidden" onclick="selecionarSobremesa('s2', 'Mousse de maracujá', '8.00')">
                     <img src="img/mousse.jpg">
-                    <p class="titulo-item">mousse</p>
+                    <p data-identifier="food-title" class="titulo-item">mousse</p>
                     <p class="descricao-item">Mousse de maracujá</p>
-                    <p class="preco-item">R$ 8,00</p>
+                    <p data-identifier="food-price" class="preco-item">R$ 8,00</p>
                     <ion-icon  class ='icon'name="checkmark-circle"></ion-icon>
                 </div>
 
-                <div class="sobremesa s3 hidden" onclick="selecionarSobremesa('s3', 'Quindin', '9.00')">
+                <div data-identifier="food-option" class="sobremesa s3 hidden" onclick="selecionarSobremesa('s3', 'Quindin', '9.00')">
                     <img src="img/quindim.jpeg">
-                    <p class="titulo-item">Quindim</p>
+                    <p data-identifier="food-title" class="titulo-item">Quindim</p>
                     <p class="descricao-item">Apenas quindim</p>
-                    <p class="preco-item">R$ 9,00</p>
+                    <p data-identifier="food-price" class="preco-item">R$ 9,00</p>
                     <ion-icon  class ='icon'name="checkmark-circle"></ion-icon>
                 </div>
                 
