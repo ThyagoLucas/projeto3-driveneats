@@ -9,12 +9,16 @@ let total = null;
 function selecionarPrato(pratoX, tipoPratoX,  precoPratoX){
 
     const selecionado= document.querySelector(".opcoes-prato .selecionado");
+
     if(selecionado != null) {
         selecionado.classList.remove("selecionado");
+        selecionado.classList.add("hidden");
+
     }
     //adicionar
     const adiciona = document.querySelector("."+pratoX);
     adiciona.classList.add("selecionado");
+    adiciona.classList.remove("hidden");
  
     tipoPrato = tipoPratoX;
     precoPrato = precoPratoX;
@@ -26,11 +30,13 @@ function selecionarBebida(bebidaX, tipoBebidaX, precoBebidaX){
     const selecionado = document.querySelector(".opcoes-bebida .selecionado");
     if(selecionado != null){
         selecionado.classList.remove("selecionado");
+        selecionado.classList.add("hidden");
     }
 
     //adicionar
     const adiciona = document.querySelector("."+bebidaX);
     adiciona.classList.add("selecionado");
+    adiciona.classList.remove("hidden");
 
     tipoBebida = tipoBebidaX;
     precoBebida = precoBebidaX;
@@ -42,10 +48,12 @@ function selecionarSobremesa(sobremesaX, tipoSobremesaX, precoSobremesaX ){
     const selecionado = document.querySelector(".opcoes-sobremesa .selecionado");
     if(selecionado != null){
         selecionado.classList.remove("selecionado");
+        selecionado.classList.add("hidden");
     }
     //adicionar
     const adiciona = document.querySelector("."+sobremesaX);
     adiciona.classList.add("selecionado");
+    adiciona.classList.remove("hidden");
 
     tipoSobremesa = tipoSobremesaX;
     precoSobremesa = precoSobremesaX;
